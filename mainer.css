@@ -1,0 +1,361 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul.sidebar {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #007bff;
+    padding-top: 2rem;
+}
+
+nav ul.sidebar li {
+    margin: 1rem 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+.menuBtn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menuBtn {
+        display: block;
+    }
+}
+
+.wizyta-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.wizyta-container h1 {
+    margin: 0.5rem 0;
+}
+
+.wizyta-container p {
+    color: #666;
+}
+
+.services, .categories, .doctors, .medicines, .prescriptions, .ask-doctor, .contact, .doctor-panel {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.services h2, .categories h2, .doctors h2, .medicines h2, .prescriptions h2, .ask-doctor h2, .contact h2, .doctor-panel h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    flex: 1 1 calc(33.333% - 2rem);
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.service:hover {
+    transform: translateY(-0.5rem);
+}
+
+.service h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.service p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.categories ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories li {
+    margin: 0.5rem;
+}
+
+.categories a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background 0.3s ease;
+}
+
+.categories a:hover {
+    background: #0056b3;
+}
+
+.doctor-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.doctor-card:hover {
+    transform: translateY(-0.5rem);
+}
+
+.doctor-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.doctor-card h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.doctor-card p {
+    color: #666;
+    line-height: 1.5;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul.sidebar {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #007bff;
+    padding-top: 2rem;
+}
+
+nav ul.sidebar li {
+    margin: 1rem 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+.menuBtn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menuBtn {
+        display: block;
+    }
+}
+.services{
+    text-align:center;
+}
+
+.wizyta-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.wizyta-container h1 {
+    margin: 0.5rem 0;
+}
+
+.wizyta-container p {
+    color: #666;
+}
+
+.services, .categories, .doctors, .medicines, .prescriptions, .ask-doctor, .contact, .doctor-panel {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.services h2, .categories h2, .doctors h2, .medicines h2, .prescriptions h2, .ask-doctor h2, .contact h2, .doctor-panel h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    flex: 1 1 calc(33.333% - 2rem);
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.service:hover {
+    transform: translateY(-0.5rem);
+}
+
+.service h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.service p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.categories ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories li {
+    margin: 0.5rem;
+}
+
+.categories a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background 0.3s ease;
+}
+
+.categories a:hover {
+    background: #0056b3;
+}
+
+.doctor-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.doctor-card:hover {
+    transform: translateY(-0.5rem);
+}
+
+.doctor-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.doctor-card h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.doctor-card p {
+    color: #666;
+    line-height: 1.5;
+}

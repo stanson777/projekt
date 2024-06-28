@@ -1,0 +1,5 @@
+Data: 2024-06-28
+Ocena opieki: 4
+Łatwość umówienia wizyty: tak
+Sugestie zmian: jest git
+------------------------------
